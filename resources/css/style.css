@@ -1,0 +1,48 @@
+/* universal */
+
+
+
+/* Navbar */
+
+.navbar-default {
+  background-color: #08304E;
+  border: none;
+}
+.navbar-default .navbar-nav>.active>a {
+  color: white;
+  background-color: inherit;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+  color:inherit;
+  background-color: white;
+}
+.navbar-header img {
+  height: 5em;
+}
+
+@media (min-width: 768px){
+  .navbar-nav>li>a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+/* Home */
+
+#home {
+  background-image: url(../images/code-background-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: -webkit-fill-available;
+}
+
+/* Gallery */
+
+#gallery {
+  background-image: url(../images/laptop-web-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: -webkit-fill-available;
+}
